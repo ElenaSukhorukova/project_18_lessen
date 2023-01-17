@@ -5,7 +5,7 @@
 }
 
 .container {
-  width: 1140;
+  width: 1140px;
   margin: 0 auto;
 }
 
@@ -117,4 +117,62 @@ h2.title {
   display: block;
   margin: 0 auto;
   margin-top: 13px;
+}
+
+.waiting {
+  height: 604px;
+  background-color: #efefef;
+  padding: 85px 0 75px 0;
+}
+
+/* What will it wait for you in the course? */
+.waiting .waiting_header {
+  color: #252525;
+  font-family: 'Roboto';
+  font-size: 30px;
+  font-weight: 400;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/* Divider */
+.waiting .waiting_divider {
+  width: 220px;
+  height: 7px;
+  background: #F9BF3B;
+  margin: 0 auto;
+  margin-top: 18px;
+}
+
+.waiting .waiting_subheader {
+  margin-top: 17px;
+  color: #4A4A4A;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 23px;
+  text-align: center; 
+}
+
+.waiting .waiting_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 45px;
+}
+
+.waiting .waiting_wrapper .waiting_item {
+  width: 339px;
+  text-align: center;
+}
+
+.waiting .waiting_wrapper .waiting_item .waiting_img {
+  width: 100%;
+}
+
+.waiting .waiting_wrapper .waiting_item .waiting_description {
+  font-family: 'Roboto';
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 21px;
+  color: #4A4A4A;
 }
